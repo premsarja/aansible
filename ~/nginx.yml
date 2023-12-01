@@ -1,0 +1,6 @@
+- name: installing nginx
+  hosts: all
+  become: yes
+  tasks:
+    - name: nginx
+      shell: yum install nginx
