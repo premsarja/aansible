@@ -4,3 +4,4 @@
   tasks:
     - name: nginx
       shell: yum install nginx
+      state: present
