@@ -3,6 +3,6 @@
   hosts: all
   become: yes
   tasks:
-    - name: nginx
-      ansible.builtin.shell: yum install nginx
-      state: present
+     name: nginx
+     ansible.builtin.shell: yum install nginx
+     state: present
