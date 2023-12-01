@@ -1,8 +1,7 @@
 ---
-- name: installing nginx
+- name: installing nginx using shell
   hosts: all
   become: yes
   tasks:
-     name: nginx
-     ansible.builtin.shell: yum install nginx
-     state: present
+    - name: Install Nginx using shell
+      ansible.builtin.shell: yum install -y nginx
