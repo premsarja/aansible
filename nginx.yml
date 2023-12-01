@@ -1,3 +1,4 @@
+---
 - name: installing nginx
   hosts: all
   become: yes
